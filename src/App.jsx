@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Square from "./components/Square";
 import RestartButton from "./components/Button";
-import Confetti from "react-confetti";
 import "./tailwind.css";
 
 function App() {
@@ -75,6 +74,7 @@ function App() {
   const renderSquare = (index, additionalClasses = "") => (
     <Square
       key={index}
+      index={index}
       svg={squares[index].svg}
       onClick={() => handleButtonClick(index)}
       additionalClasses={additionalClasses}
@@ -111,7 +111,6 @@ function App() {
       {winner && (
         <h1 className="text-5xl text-sky-400 mt-4 font-montserrat font-medium">
           Player {winner === "cross" ? "X" : "O"} Wins!
-          <Confetti width={window.innerWidth} height={window.innerHeight} />
         </h1>
       )}
       {isDraw && !winner && (

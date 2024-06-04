@@ -10,7 +10,7 @@ Ensure you have the following installed:
 - Node.js
 - npm
 
-## Installation
+## Installing and Running the Application
 
 1. Clone the repository:
 
@@ -25,13 +25,11 @@ Ensure you have the following installed:
    npm install
    ```
 
-## Running the Application
+3. To start the app:
 
-To start the app:
-
-```bash
-npm start
-```
+   ```bash
+   npm start
+   ```
 
 ## Running the Tests
 

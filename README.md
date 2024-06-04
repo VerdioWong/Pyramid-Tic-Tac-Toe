@@ -18,4 +18,3 @@ To run the Pyramid Tic-Tac-Toe app, follow these steps:
    npm start
    ```
 
-For detailed information, visit the [Pyramid Tic-Tac-Toe repository](https://github.com/VerdioWong/Pyramid-Tic-Tac-Toe).

@@ -12,7 +12,7 @@ Ensure you have the following installed:
 
 ## Installing and Running the Application
 
-1. Clone the repository:
+1. Clone the repository (require git):
 
    ```bash
    git clone https://github.com/VerdioWong/Pyramid-Tic-Tac-Toe.git

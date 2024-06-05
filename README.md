@@ -1,7 +1,7 @@
 
 # Pyramid Tic-Tac-Toe
 
-A simple Tic-Tac-Toe game implemented in React with a pyramid board design.
+A simple Tic-Tac-Toe game implemented in React and Tailwind CSS styling with a pyramid board design.
 
 ## Prerequisites
 
